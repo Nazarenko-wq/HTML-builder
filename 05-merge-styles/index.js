@@ -2,7 +2,6 @@
 
 const fs = require('fs');
 const path = require('path');
-let { COPYFILE_EXCL } = fs.constants;
 
 fs.stat(
     path.join(__dirname, 'project-dist', 'bundle.css'),
